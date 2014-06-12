@@ -23,7 +23,7 @@
 			<h2>About</h2>
 			<p> bootstrap3-wysihtml5 is a javascript plugin that makes it easy to create simple, beautiful wysiwyg editors with the help of <a href="https://github.com/xing/wysihtml5">wysihtml5</a> and <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> </p>
 			<p> It based on the Project <a href="https://github.com/schnawel007/bootstrap3-wysihtml5">https://github.com/schnawel007/bootstrap3-wysihtml5</a> </p>
-			<p style="text-align:center; margin-top:20px"> <a class="btn btn-large btn-primary jumbo" href="https://github.com/lucaromano18/bootstrap3-wysiwyg-image">View project on Github</a> </p>
+			<p style="text-align:center; margin-top:20px"> <a class="btn btn-large btn-primary" target="_blank" href="https://github.com/lucaromano18/bootstrap3-wysiwyg-image">View project on Github</a> </p><p style="text-align:center; margin-top:20px"> <a class="btn btn-large btn-primary" target="_blank" href="http://www.lucaromano.net/workin/bootstrap3-wysihtml5/">Online demo</a> </p>
 		</div>
 		<div class="span6" >
 			<h2>Usage</h2>

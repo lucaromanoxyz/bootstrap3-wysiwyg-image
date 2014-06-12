@@ -7,6 +7,8 @@ It based on the Project [https://github.com/schnawel007/bootstrap3-wysihtml5](ht
 Online demo
 =============
 
+Test the editor with the new feature of image upload visiting my website
+
 [http://www.lucaromano.net/workin/bootstrap3-wysihtml5/](http://www.lucaromano.net/workin/bootstrap3-wysihtml5/)
 
 Examples
