@@ -14,7 +14,7 @@
 <body>
 <div class="container">
 	<div class="hero-unit" style="margin-top:40px">
-		<h1 style="font-size:58px">Bootstrap3 Wysihtml5 <small>Finally, whit image upload!</small></h1>
+		<h1 style="font-size:58px">Bootstrap3 Wysihtml5 <small>Finally, with image upload!</small></h1>
 		<hr/>
 		<textarea class="textarea form-control" placeholder="Enter text ..." style="width: 810px; height: 200px"></textarea>
 	</div>
