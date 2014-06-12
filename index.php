@@ -36,8 +36,5 @@
 <script>
     $('.textarea').wysihtml5();
 </script> 
-<script type="text/javascript" charset="utf-8">
-    $(prettyPrint);
-</script>
 </body>
 </html>
