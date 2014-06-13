@@ -11,11 +11,6 @@ Test the editor with the new feature of image upload visiting my website
 
 [http://www.lucaromano.net/workin/bootstrap3-wysihtml5/](http://www.lucaromano.net/workin/bootstrap3-wysihtml5/)
 
-Examples
-=============
-
-[https://github.com/lucaromano18/bootstrap3-wysiwyg-image](https://github.com/lucaromano18/bootstrap3-wysiwyg-image)
-
 Quick Start
 =============
 
