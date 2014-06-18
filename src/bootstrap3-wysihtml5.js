@@ -83,7 +83,7 @@
                 "<h4>Upload your image</h4>" +
 				  "<form name='photo' id='imageUploadForm' enctype='multipart/form-data' action='upload/upload_image.php' method='post'>" +
                 "<input type='file' id='imageBrowse' name='image1' size='30'/>" +
-                "<label for='imageBrowse'><button type='button' class='btn btn-default'>Click here to upload an image</button></label>" +
+                "<button type='button' class='btn btn-default' id='btnImageBrowse'>Click here to upload an image</button>" +
                 "</form>" +
                 "<div class='progress'>" +
                 "<div class='progress-bar' id='imageProgressBar' role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width: 0%;'>" +
@@ -373,10 +373,17 @@
 					});
 				}));
 				
+				
+				toolbar.find("button#btnImageBrowse").on("click", function(event) {
+					event.stopPropagation();
+					$(this).siblings('#imageBrowse').click();
+				});
+				
 				toolbar.find("#imageBrowse").on("change", function() {
 					imageProgressBar.css("width", "0").html("");
 					uploadForm.submit();
 				});
+				
         },
         initInsertLink: function(toolbar) {
             var self = this;
