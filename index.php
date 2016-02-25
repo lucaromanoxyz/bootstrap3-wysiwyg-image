@@ -4,8 +4,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <meta charset="utf-8">
 <title>Luca Romano / Bootstrap wysihtml5 with image upload</title>
-<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="src/bootstrap-wysihtml5.css" />
+<link rel="stylesheet" type="text/css" href="plugins /bootstrap3-wysiwyg/lib/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="plugins /bootstrap3-wysiwyg/src/bootstrap-wysihtml5.css" />
 <script src="lib/js/wysihtml5-0.3.0.js"></script>
 <script src="lib/js/jquery-1.7.2.min.js"></script>
 <script src="lib/js/bootstrap.min.js"></script>
