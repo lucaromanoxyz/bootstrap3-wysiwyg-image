@@ -80,10 +80,10 @@
                 "<h4>" + locale.image.insert + "</h4>" +
                 "</div>" +
                 "<div class='modal-body'>" +
-                "<h4>Upload your image</h4>" +
-				  "<form name='photo' id='imageUploadForm' enctype='multipart/form-data' action='upload/upload_image.php' method='post'>" +
+                "<h4>Upload de Imagem</h4>" +
+				  "<form name='photo' id='imageUploadForm' enctype='multipart/form-data' action='plugins/bootstrap3-wysiwyg/upload/upload_image.php' method='post'>" +
                 "<input type='file' id='imageBrowse' name='image1' size='30'/>" +
-                "<button type='button' class='btn btn-default' id='btnImageBrowse'>Click here to upload an image</button>" +
+                "<button type='button' class='btn btn-default' id='btnImageBrowse'>Selecione a imagem</button>" +
                 "</form>" +
                 "<div class='progress'>" +
                 "<div class='progress-bar' id='imageProgressBar' role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width: 0%;'>" +
@@ -91,7 +91,7 @@
                 "</div>" +
                 "<hr>" +
                 "<div class='imageLink'>" +
-                "<h4>On insert the link of a online image.</h4>" +
+                "<h4>Ou insira uma imagem da internet.</h4>" +
                 "<input value='http://' class='bootstrap-wysihtml5-insert-image-url form-control'>" +
                 "</div>" +
                 "</div>" +
@@ -361,7 +361,7 @@
 							if(image == "failed") {
 								alert("Image upload failed.");
 							} else {		
-								var image = eval("(" + image  + ")");	
+								var image = eval("(" + image  + ")");
 								$("<input type='hidden' name='imageUploaded' value='" + image["path"] + "' />").appendTo(uploadForm);
 								$("<h5>" + image["name"] + " successfully upload!. </h5>").insertBefore(uploadForm);
 								imageProgressBar.css("width", "0").html("");
@@ -554,7 +554,7 @@
                 "pre": 1
             }
         },
-        stylesheets: ["./css/bootstrap3-wysiwyg5-color.css"], // (path_to_project/lib/css/bootstrap3-wysiwyg5-color.css)
+        stylesheets: ["plugins/bootstrap3-wysiwyg/lib/css/bootstrap3-wysiwyg5-color.css"], // (path_to_project/lib/css/bootstrap3-wysiwyg5-color.css)
         locale: "en"
     };
 
