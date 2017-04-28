@@ -1,6 +1,6 @@
 <?
 	$_PATH_UPLOAD = "../images/";
-	$_PATH_UPLOAD_FOR_VIEW = "images/";
+	$_PATH_UPLOAD_FOR_VIEW = "http://".$_SERVER['SERVER_NAME']."/uploaded_images/";
 	$_IMAGES = array();
 	if($_FILES) {
 		$fileName = "uploaded-file-".time()."-".rand().".".pathinfo($_FILES["image1"]["name"], PATHINFO_EXTENSION); // The file name
